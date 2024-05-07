@@ -28,9 +28,9 @@ namespace SignalR_Project.Controllers
                 );
             return Accepted();
         }
-        public IActionResult Privacy()
+        public IActionResult Group()
         {
-            return View();
+            return View("HarryPotterHouse");
         }
         public IActionResult Privacy()
         {
